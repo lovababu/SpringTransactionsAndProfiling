@@ -32,12 +32,12 @@ And also it gives the idea about Lombok and Logback frameworks.
 
 ## Observation after running successfully.
 
-1. You can find the log like below. This tells you the time taken by the method to execute in milli seconds,
-   this is nothin but profiling java methods.
+1. You can find the log like below. Refer <code>TimeProfiler.java @Around </code> annotated method.
+   This tells you the time taken by the method to execute in milli seconds, this is nothing but profiling java methods.
 
    ====================== TimeProfiler Start =======================
 
-   StopWatch 'com.lova.spring.trxns.profiler.TimeProfiler': running time (millis) = 180
+   StopWatch  'com.lova.spring.trxns.profiler.TimeProfiler': running time (millis) = 180
    -----------------------------------------
    ms     %     Task name
    -----------------------------------------
